@@ -1,0 +1,135 @@
+*{padding: 0;
+  margin: 0;}
+  
+  ul,li
+  {list-style: none;}
+  .carousel{
+      position: relative;
+      width: 650px;
+      height: 920px;
+      overflow: hidden;
+    }
+    .carousel .img-ct{
+      position: absolute;
+      width: 2250px;
+      overflow:hidden;
+    }
+    .carousel .img-ct img{
+      width:650px;
+      height: 920px;
+    }
+    
+    .carousel .img-ct li{
+      float: left;
+    }
+
+    .arrow{
+      position: absolute;
+        top: 50%;
+        margin-top: -40px;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        background: #4E443C;
+        color: #fff;
+        border-radius: 80px;
+        box-shadow: 0 0 2px #999;
+        opacity: 0.8 ;
+        text-decoration:none;
+    }
+    .arrow:hover {
+        opacity: 1;
+    }
+    .pre{
+      left: 50px;
+    }
+    .next{
+      right: 50px;
+    }
+    ul.bullet {
+        width: 100%;
+        position:absolute;
+        z-index: 1;
+        bottom: 50px;
+        text-align: center;
+        
+    }
+    ul.bullet>li {
+        
+        width: 80px;
+        cursor: pointer;
+        border-radius: 10px;
+        height: 20px;
+        border:2px solid #ccc;
+        display: inline-block;
+        cursor:pointer;
+    }
+
+    ul.bullet>li.active {
+        background: #666;
+    }
+ 
+ .container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+ }
+ .container h1{
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 25px;
+
+}
+.container p{
+  font-size: 75px;
+  line-height: 75px;
+  font-weight: 700;
+
+  margin-bottom: 50px;
+}
+.container a{
+  color: #fff;
+  padding:20px 40px;
+  background: #fed136;
+  font-weight: 700;
+
+  border-radius: 5px;
+  display: inline-block;
+}
+.exposure{
+  height: 500px;
+}
+
+.exposure ul,
+.exposure li{list-style: none;}
+
+.exposure img{
+  float:left;
+  width: 487px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+li,ul,p,div{
+ box-sizing: border-box;
+}
+.gotop{
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background: #f6bf01;
+  color: #f1f1f1;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 16px;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+
+  display: none;
+  cursor: pointer;
+}
